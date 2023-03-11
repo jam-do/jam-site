@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "node ./build.js",
+    "dev": "node ./watch.js"
+  },
+  "name": "jam-site",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@jam-do/jam-tools": "^0.0.4",
+    "@types/node": "^18.15.0",
+    "esbuild": "^0.17.11",
+    "marked": "^4.2.12"
+  }
+}
