@@ -1,0 +1,1 @@
+### Graph data representation for any purpose

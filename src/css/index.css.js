@@ -13,7 +13,7 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: var(--clr-1);
-  font-family: monospace;
+  font-family: 'JetBrains Mono', monospace;
 }
 h1, h2 {
   font-size: 36px;
@@ -76,16 +76,16 @@ section:target {
 }
 
 [clr]:nth-child(1) {
-  --local-tone-1: #fb2542;
+  --local-tone-1: #414141;
   --local-tone-2: #f9dee0;
 }
 [clr]:nth-child(2) {
-  --local-tone-1: #F1BF98;
-  --local-tone-2: rgb(103, 83, 57);
-}
-[clr]:nth-child(3) {
   --local-tone-1: #6B818C;
   --local-tone-2: rgb(255, 238, 255);
+}
+[clr]:nth-child(3) {
+  --local-tone-1: #F1BF98;
+  --local-tone-2: rgb(103, 83, 57);
 }
 [clr]:nth-child(4) {
   --local-tone-1: #b4b4b4;
@@ -145,7 +145,14 @@ a[back-btn] {
 
 section:target a[back-btn] {
   transform: none;
-}`;
+}
+
+col-css {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+}
+`;
 
 
 

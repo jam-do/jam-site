@@ -9,7 +9,8 @@ for (let path in data) {
   cardsHtml += /*html*/ `
     <a card clr href="#${path}">
       <div>
-        <h1>${data[path].title}</h1>
+        ${data[path].img ? /*html*/ `<img src="${data[path].img}">` : ''}
+        ${data[path].title ? /*html*/ `<h1>${data[path].title}</h1>` : ''}
       </div>
     </a>
   `;
@@ -18,8 +19,10 @@ for (let path in data) {
   sectionsHtml += /*html*/ `
     <section clr id="${path}">
       <a back-btn href="#">&lt; go back</a>
-      <h1>${data[path].title}</h1>
-      <div>${mdHtml}</div>
+      <col-css>
+        <h1>${data[path].title || data[path].subTitle || ''}</h1>
+        <div>${mdHtml}</div>
+      </col-css>
     </section>
   `;
 }
@@ -32,6 +35,12 @@ export default /*html*/ `<!DOCTYPE html>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jam-do.org</title>
+  <meta name="description" content="jam-do - the new age web development platform">
+  <meta name="keywords" content="jam-do, jam-x, jam-tools, jam-fi, jam-ai, dwa, ims, daobot, dao, chat-ui, meta web, web development, symbiote.js">
+  <link rel="icon" href="./svg/logo/index.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
