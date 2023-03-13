@@ -77,7 +77,7 @@ section:target {
 
 [clr]:nth-child(1) {
   --local-tone-1: #414141;
-  --local-tone-2: #f9dee0;
+  --local-tone-2: #bbbbbb;
 }
 [clr]:nth-child(2) {
   --local-tone-1: #6B818C;
