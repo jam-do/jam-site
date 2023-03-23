@@ -18,6 +18,51 @@ html, body {
 h1, h2 {
   font-size: 36px;
 }
+
+h3 {
+  display: inline-block;
+  background-color: var(--local-tone-2);
+  color: var(--local-tone-1);
+  padding: .1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+blockquote {
+  display: inline-block;
+  padding: 10px;
+  border: 1px dashed currentColor;
+  margin: 0;
+}
+blockquote p {
+  margin: 0;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul > li {
+  display: block;
+  padding: 10px;
+  padding-left: 30px;
+  border-left: 1px solid currentColor;
+  margin-bottom: 0;
+}
+ul > li::before {
+  position: absolute;
+  left: 0;
+  content: "->";
+  color: currentColor;
+  text-shadow: 0 0 4px var(--clr-logo-1);
+  margin-right: var(--gap-mid);
+}
+
 viewport-el {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--tile-size), 1fr));
@@ -151,6 +196,21 @@ col-css {
   display: block;
   width: 100%;
   max-width: 960px;
+}
+
+copy-css {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  border: 1px dashed currentColor;
+  margin-top: 20px;
+}
+copy-css > span {
+  margin-left: 20px;
+}
+copy-css > img {
+  transform: translateY(-4px);
 }
 `;
 
