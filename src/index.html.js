@@ -2,6 +2,7 @@ import { data } from './data/data.js';
 import fs from 'fs';
 import { marked } from 'marked';
 import { applyData } from '@jam-do/jam-tools/iso/applyData.js';
+import { htmlMin } from '@jam-do/jam-tools/iso/htmlMin.js';
 
 let cardsHtml = '';
 let sectionsHtml = '';
@@ -37,7 +38,7 @@ for (let path in data) {
   `;
 }
 
-export default /*html*/ `<!DOCTYPE html>
+let html = /*html*/ `<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -60,3 +61,5 @@ export default /*html*/ `<!DOCTYPE html>
 </body>
 
 </html>`;
+
+export default htmlMin(html);

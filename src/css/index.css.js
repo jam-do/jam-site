@@ -1,4 +1,6 @@
-export default /*css*/ `
+import { cssMin } from '@jam-do/jam-tools/iso/cssMin.js';
+
+let css = /*css*/ `
 :root {
   --clr-1: #000;
   --clr-2: rgb(178, 214, 252);
@@ -216,6 +218,7 @@ copy-css > img {
 }
 `;
 
+export default cssMin(css);
 
 
 
