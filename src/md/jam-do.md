@@ -8,7 +8,7 @@ Jam-do.org - is a DAO-based organization. That means, we use blockchain technolo
 ### What exactly we doing?
 Our goal is to create the new kind of web development platform. We rethinking and reassembling environment tools to make them more clear and useful for the wider range of interested people, not for the web developers only.
 
-We are not trying to reinvent the wheel. All our solutions are based on the modern web-platform abilities and standards, such as Web Components, HTTPS-imports, ECMAScript Modules, Git, CDNs and the available blockchain networks.
+We are not trying to reinvent the wheel. All our solutions are based on the modern abilities and standards, such as Web Components, HTTPS-imports, ECMAScript Modules, Git, CDNs and blockchain.
 ### What concepts we follow?
 
 - HTML-based low-code approach - it's easy to compose your solution from the set of the simple HTML-tags
