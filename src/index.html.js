@@ -26,7 +26,7 @@ for (let path in data) {
   });
   sectionsHtml += /*html*/ `
     <section clr id="${path}">
-      <a back-btn href="#home">&lt; go back</a>
+      <a back-btn href="#home">&lt;&lt;- go back</a>
       <col-css>
         <div>${mdHtml}</div>
         <copy-css>
