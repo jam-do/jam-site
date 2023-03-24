@@ -1,5 +1,5 @@
 export const clrs = {
-  bg: 'rgba(40, 0, 0, .4)',
+  bg: '#800000',
   outline: '#f00',
   sign: '#fff',
 }
