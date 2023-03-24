@@ -7,11 +7,49 @@
    viewBox="0 0 100 100"
    version="1.1"
    id="svg5"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   sodipodi:docname="jam-ico.svg"
+   inkscape:export-filename="jam-ico_space.png"
+   inkscape:export-xdpi="960"
+   inkscape:export-ydpi="960"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="5.4585747"
+     inkscape:cx="35.81521"
+     inkscape:cy="48.181076"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1776"
+       spacingx="5"
+       spacingy="5"
+       empspacing="2"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
   <defs
      id="defs2" />
   <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
      id="layer1">
     <g
        id="g7952"
@@ -20,15 +58,18 @@
       <path
          style="fill:#800000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 20,130 10,10 H 80 V 75 L 70,65 v 0 H 40 V 90 H 20 Z"
-         id="path2684" />
+         id="path2684"
+         sodipodi:nodetypes="cccccccccc" />
       <path
          style="fill:#ff0000;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="M 40,65 V 90 H 20 v 40 H 69.671407 L 70,65 Z"
-         id="path462" />
+         id="path462"
+         sodipodi:nodetypes="ccccccc" />
       <path
          id="path2694"
          style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 50,75 H 60 V 85 H 50 Z m 0,15 h 10 v 30 H 30 v -20 h 10 v 10 h 10 z" />
+         d="M 50,75 H 60 V 85 H 50 Z m 0,15 h 10 v 30 H 30 v -20 h 10 v 10 h 10 z"
+         sodipodi:nodetypes="cccccccccccccc" />
     </g>
   </g>
 </svg>
