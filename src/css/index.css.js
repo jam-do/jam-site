@@ -186,6 +186,7 @@ a[back-btn] {
   transform: translateY(-100%);
   transition: transform .3s;
   transition-delay: .5s;
+  z-index: 100000;
 }
 
 section:target a[back-btn] {
