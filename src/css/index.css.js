@@ -30,7 +30,6 @@ h3 {
   padding-right: .5em;
   margin-top: 30px;
   margin-bottom: 6px;
-  box-shadow: 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 blockquote {
