@@ -21,6 +21,6 @@ So we introduce our solution - &lt;jam-x&gt; - the set of HTML extensions, that 
 
 ### What's under the hood?
 
-&lt;jam-x&gt; is based on Symbiote.js library, which is created for the advanced integration purposes in front-end development. The core feature of Symbiote.js - is that Symbiote-components are able to analyse their own environment and usage context. And those components could be represented as custom HTML-tags in the source document.
+&lt;jam-x&gt; is based on&nbsp;[Symbiote.js](https://symbiotejs.org/)&nbsp;library, which is created for the advanced integration purposes in front-end development. The core feature of Symbiote.js - is that Symbiote-components are able to analyse their own environment and usage context. And those components could be represented as custom HTML-tags in the source document.
 
 This technology is well-tested and work perfectly in the huge amount of cases.

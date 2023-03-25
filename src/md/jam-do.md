@@ -18,7 +18,7 @@ We are not trying to reinvent the wheel. All our solutions are based on the mode
 - Integrated financial model - own your contributions as NFTs
 - DBD - Designed by Data - don't waste your time to complicated design, let your data create the UI for you
 - Talk with your app - dialog interfaces allows to unite rich representations and the ability to manage your application data
-- Meta Web - integrate your solution into any other application, based on web technologies
+- Meta Web - integrate your solution into any other applications. Get yours from the set of ready-made blocks, developed by the other teams
 - AI - ask machine to build the new blocks for you
 
 ### What the state of our platform?

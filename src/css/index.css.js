@@ -173,7 +173,9 @@ section:target {
 
 a[card] {
   text-decoration: none;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, .2);
 }
+
 a[back-btn] {
   display: block;
   position: fixed;
@@ -193,6 +195,10 @@ a[back-btn] {
 
 section:target a[back-btn] {
   transform: none;
+}
+
+a {
+  color: currentColor;
 }
 
 col-css {
