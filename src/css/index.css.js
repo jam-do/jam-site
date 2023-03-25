@@ -173,7 +173,7 @@ section:target {
 
 a[card] {
   text-decoration: none;
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, .2);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .1);
 }
 
 a[back-btn] {
