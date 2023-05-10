@@ -221,6 +221,28 @@ copy-css > span {
 copy-css > img {
   transform: translateY(-4px);
 }
+
+iframe {
+  position: relative;
+  display: block;
+  height: 300px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+}
+iframe::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: attr(text);
+  color: #fff;
+  z-index: 100000;
+  font-size: 60px;
+  background-color: #f00;
+}
 `;
 
 export default cssMin(css);

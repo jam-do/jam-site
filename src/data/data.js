@@ -7,6 +7,9 @@ export const data = {
   'jam-x': {
     title: '&lt;jam-x&gt;',
   },
+  'dwa': {
+    title: '{DWA}',
+  },
   'jam-tools': {
     title: '/jam-tools/',
   },
@@ -15,9 +18,6 @@ export const data = {
   },
   'jam-ai': {
     title: 'jam-ai^',
-  },
-  'dwa': {
-    title: '{DWA}',
   },
   'ims': {
     title: 'IMS.',
