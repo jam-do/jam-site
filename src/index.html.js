@@ -24,6 +24,7 @@ for (let path in data) {
   mdHtml = applyData(mdHtml, {
     YEAR: year,
   });
+  
   sectionsHtml += /*html*/ `
     <section clr id="${path}">
       <a back-btn href="#home">&lt;&lt;- go back</a>

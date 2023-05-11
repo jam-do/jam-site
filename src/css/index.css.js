@@ -1,6 +1,102 @@
 import { cssMin } from '@jam-do/jam-tools/iso/cssMin.js';
 
-let css = /*css*/ `
+/**
+ * 
+ * @param {TemplateStringsArray} strings 
+ * @param  {...any} values 
+ */
+function css(strings, ...values) {
+  let output = '';
+  strings.forEach((subStr, idx) => {
+    output += subStr;
+    output += values[idx];
+  });
+  return cssMin(output);
+}
+
+function generateColors() {
+  let output = '';
+  let h = 120;
+  let getH = () => {
+    return [h + 30 + 'deg', h + 210 + 'deg'];
+  };
+  for (let i = 0; i < 12; i++) {
+    output += `
+    [clr]:nth-child(${i + 1}) {
+      --local-tone-1: hsl(${getH()[0]}, 40%, 50%);
+      --local-tone-2: hsl(${getH()[1]}, 20%, 90%);
+    }
+    `.trim();
+    h += 27;
+  }
+  return output;
+}
+
+function colors() {
+  let clrArr = [
+    {
+      fg: '#414141',
+      bg: '#bbbbbb',
+    },
+    {
+      fg: '#6B818C',
+      bg: 'rgb(255, 238, 255)',
+    },
+    {
+      fg: '#F1BF98',
+      bg: 'rgb(103, 83, 57)',
+    },
+    {
+      fg: '#b4b4b4',
+      bg: '#545353',
+    },
+    {
+      fg: '#6aa76f',
+      bg: '#e9ffe9',
+    },
+    {
+      fg: '#2970cc',
+      bg: '#d8e2ff',
+    },
+    {
+      fg: '#ff9747',
+      bg: 'rgb(86, 58, 40)',
+    },
+    {
+      fg: '#6B818C',
+      bg: 'rgb(255, 238, 255)',
+    },
+    {
+      fg: '#a24368',
+      bg: '#ffffff',
+    },
+    {
+      fg: '#5dab92',
+      bg: '#e6ffe8',
+    },
+    {
+      fg: '#414141',
+      bg: '#bbbbbb',
+    },
+    {
+      fg: '#b4b4b4',
+      bg: '#363636',
+    },
+  ];
+  let outCss = '';
+  clrArr.forEach((clr, idx) => {
+
+    outCss += `
+      [clr]:nth-child(${idx + 1}) {
+        --local-tone-1: ${clr.fg};
+        --local-tone-2: ${clr.bg};
+      }
+    `.trim();
+  });
+  return outCss;
+}
+
+export default /*css*/ css`
 :root {
   --clr-1: #000;
   --clr-2: rgb(178, 214, 252);
@@ -30,6 +126,7 @@ h3 {
   padding-right: .5em;
   margin-top: 30px;
   margin-bottom: 6px;
+  text-shadow: none;
 }
 
 blockquote {
@@ -115,61 +212,17 @@ section {
   transform: translateX(100%);
   background-color: var(--local-tone-1, #ccc);
   color: var(--local-tone-2, #000);
+  text-shadow: 0 0 2px var(--local-tone-1);
   transition: transform ease-in-out .4s;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 section:target {
   transform: none;
 }
 
-[clr]:nth-child(1) {
-  --local-tone-1: #414141;
-  --local-tone-2: #bbbbbb;
-}
-[clr]:nth-child(2) {
-  --local-tone-1: #6B818C;
-  --local-tone-2: rgb(255, 238, 255);
-}
-[clr]:nth-child(3) {
-  --local-tone-1: #F1BF98;
-  --local-tone-2: rgb(103, 83, 57);
-}
-[clr]:nth-child(4) {
-  --local-tone-1: #b4b4b4;
-  --local-tone-2: #545353;
-}
-[clr]:nth-child(5) {
-  --local-tone-1: #6aa76f;
-  --local-tone-2: #e9ffe9;
-}
-[clr]:nth-child(6) {
-  --local-tone-1: #d775c4;
-  --local-tone-2: #ffffff;
-}
-[clr]:nth-child(7) {
-  --local-tone-1: #2970cc;
-  --local-tone-2: #d8e2ff;
-}
-[clr]:nth-child(8) {
-  --local-tone-1: #ff9747;
-  --local-tone-2: rgb(86, 58, 40);
-}
-[clr]:nth-child(9) {
-  --local-tone-1: #6B818C;
-  --local-tone-2: rgb(255, 238, 255);
-}
-[clr]:nth-child(10) {
-  --local-tone-1: #b4b4b4;
-  --local-tone-2: #363636;
-}
-[clr]:nth-child(11) {
-  --local-tone-1: #5dab92;
-  --local-tone-2: #e6ffe8;
-}
-[clr]:nth-child(12) {
-  --local-tone-1: #414141;
-  --local-tone-2: #bbbbbb;
-}
+${generateColors()}
 
 a[card] {
   text-decoration: none;
@@ -244,8 +297,3 @@ iframe::after {
   background-color: #f00;
 }
 `;
-
-export default cssMin(css);
-
-
-
