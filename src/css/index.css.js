@@ -16,84 +16,19 @@ function css(strings, ...values) {
 
 function generateColors() {
   let output = '';
-  let h = 120;
+  let h = 180;
   let getH = () => {
     return [h + 30 + 'deg', h + 210 + 'deg'];
   };
   for (let i = 0; i < 12; i++) {
     output += `
     [clr]:nth-child(${i + 1}) {
-      --local-tone-1: hsl(${getH()[0]}, 40%, 50%);
+      --local-tone-1: hsl(${getH()[0]}, 40%, 45%);
       --local-tone-2: hsl(${getH()[1]}, 20%, 90%);
-    }
-    `.trim();
-    h += 27;
+    }`.trim();
+    h += 30;
   }
   return output;
-}
-
-function colors() {
-  let clrArr = [
-    {
-      fg: '#414141',
-      bg: '#bbbbbb',
-    },
-    {
-      fg: '#6B818C',
-      bg: 'rgb(255, 238, 255)',
-    },
-    {
-      fg: '#F1BF98',
-      bg: 'rgb(103, 83, 57)',
-    },
-    {
-      fg: '#b4b4b4',
-      bg: '#545353',
-    },
-    {
-      fg: '#6aa76f',
-      bg: '#e9ffe9',
-    },
-    {
-      fg: '#2970cc',
-      bg: '#d8e2ff',
-    },
-    {
-      fg: '#ff9747',
-      bg: 'rgb(86, 58, 40)',
-    },
-    {
-      fg: '#6B818C',
-      bg: 'rgb(255, 238, 255)',
-    },
-    {
-      fg: '#a24368',
-      bg: '#ffffff',
-    },
-    {
-      fg: '#5dab92',
-      bg: '#e6ffe8',
-    },
-    {
-      fg: '#414141',
-      bg: '#bbbbbb',
-    },
-    {
-      fg: '#b4b4b4',
-      bg: '#363636',
-    },
-  ];
-  let outCss = '';
-  clrArr.forEach((clr, idx) => {
-
-    outCss += `
-      [clr]:nth-child(${idx + 1}) {
-        --local-tone-1: ${clr.fg};
-        --local-tone-2: ${clr.bg};
-      }
-    `.trim();
-  });
-  return outCss;
 }
 
 export default /*css*/ css`
