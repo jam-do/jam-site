@@ -11,3 +11,4 @@ IMS -- is a set of ready-made widgets for your interactive multimedia, such as:
 - Image comparison
 - Interactive animations
 - etc.
+

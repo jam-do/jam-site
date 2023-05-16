@@ -31,9 +31,9 @@ export const data = {
   'gdive': {
     title: 'GDive',
   },
-  'meta-web': {
-    title: 'Meta Web',
-  },
+  // 'meta-web': {
+  //   title: 'Meta Web',
+  // },
   'other': {
     title: '...',
   },

@@ -1,4 +1,5 @@
 import { cssMin } from '@jam-do/jam-tools/iso/cssMin.js';
+import { data } from '../data/data.js';
 
 /**
  * 
@@ -20,12 +21,13 @@ function generateColors() {
   let getH = () => {
     return [h + 30 + 'deg', h + 210 + 'deg'];
   };
-  for (let i = 0; i < 12; i++) {
+  let length = Object.keys(data).length;
+  for (let i = 0; i < length; i++) {
     output += `
-    [clr]:nth-child(${i + 1}) {
-      --local-tone-1: hsl(${getH()[0]}, 40%, 45%);
-      --local-tone-2: hsl(${getH()[1]}, 20%, 90%);
-    }`.trim();
+      [clr]:nth-child(${i + 1}) {
+        --local-tone-1: hsl(${getH()[0]}, 40%, 45%);
+        --local-tone-2: hsl(${getH()[1]}, 20%, 90%);
+      }`.trim();
     h += 30;
   }
   return output;
