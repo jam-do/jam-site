@@ -158,7 +158,7 @@ The audience of the platform will consist not only of professional web developer
 
 We want to introduce the term DAT - Distributed Autonomous Teams
 
-## Financial model
+## Monetization model
 
 Main platforms monetization channels:
 - Paid access to JAM Cloud PRO functions (working with code from private repositories, serverless functions, etc.)
@@ -366,11 +366,11 @@ In any case, we will study various work schemes and opportunities to conduct leg
 
 ## For investors
 
-jam-do is very much a research project in which various concepts will be created and tested. We don’t know for sure which of them will be the most commercially successful and socially useful; we have to test many hypotheses. It is necessary to be aware of the risks and features of the R&D processes associated with them. There is a possibility that a positive result will be achieved only in certain areas and our development strategy will be significantly adjusted.
+JAM-DO is very much a research project in which various concepts will be created and tested. We don’t know for sure which of them will be the most commercially successful and socially useful; we have to test many hypotheses. It is necessary to be aware of the risks and features of the R&D processes associated with them. There is a possibility that a positive result will be achieved only in certain areas and our development strategy will be significantly adjusted.
 
 The entire code base of the platform (including infrastructure configurations, except for the Symbiote.js code) is the collective property of investors (in the form of ownership of shares of the total Code NFT array).
 
-**Foundation DAO*- is a form of organization for founders, key partners and key investors. This DAO has the right to conduct strategic voting and issues privileged tokens with increased voting power to ensure governance and access to proprietary internal development information.
+**Foundation DAO** - is a form of organization for founders, key partners and key investors. This DAO has the right to conduct strategic voting and issues privileged tokens with increased voting power to ensure governance and access to proprietary internal development information.
 
 **First Wave DAO** - basic tokens for investors.
 

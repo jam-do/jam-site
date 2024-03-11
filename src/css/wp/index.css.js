@@ -16,7 +16,13 @@ html, body {
 }
 
 x-article-nav {
+  grid-template-columns: minmax(min-content, 240px) auto;
   ${columnMixin}
+
+  &::part(article) {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }
 
 h1 {
