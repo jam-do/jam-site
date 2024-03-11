@@ -362,7 +362,7 @@ In any case, we will study various work schemes and opportunities to conduct leg
 - No-build environment — DWA deployment does not require a build step (JAM Cloud is responsible for that)
 - Openness: the assembly point of a web solution is always an HTML document, and therefore the platform is open to everything that uses web technologies and web standards
 
-## For investors
+## For future partners and investors
 
 **JAM-DO** is very much a research project in which various concepts will be created and tested. We don’t know for sure which of them will be the most commercially successful and socially useful; we have to test many hypotheses. It is necessary to be aware of the risks and features of the R&D processes associated with them. There is a possibility that a positive result will be achieved only in certain areas and our development strategy will be significantly adjusted.
 
