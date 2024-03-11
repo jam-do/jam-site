@@ -37,11 +37,9 @@ header {
   display: grid;
   grid-template-columns: min-content auto;
   gap: 20px;
-  background: linear-gradient(#fff, rgba(255, 255, 255, .4));
-  padding: 10px;
-  border-radius: 4px;
-
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
   ${columnMixin}
+  padding: 10px;
 
 
   h1 {
@@ -56,11 +54,10 @@ header {
 
 footer {
   display: block;
-  background: linear-gradient(rgba(255, 255, 255, .4), #fff);
-  padding: 20px;
   border-radius: 4px;
-
+  border-top: 1px solid rgba(0, 0, 0, .2);
   ${columnMixin}
+  padding: 20px;
 }
 
 a[up] {
