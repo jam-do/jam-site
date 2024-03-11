@@ -306,7 +306,7 @@ For any ambitious project, the experience, competencies and personal qualities o
 
 We are the founders of the project — two brothers, emigrants of Russian origin, currently living in Argentina.
 
-### Sergey Matiyasevich
+### Alex Matiyasevich
 
 44 years old, Fullstack web-developer, R&D engineer, UI/UX engineer
 
