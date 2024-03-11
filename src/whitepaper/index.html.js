@@ -39,8 +39,12 @@ export default /*html*/ `
   <script src="https://esm.run/jam-xxx@1.1.1/tags/widgets/x-article-nav.js" type="module"></script>
 </head>
 <body>
-  <h1>JAM-DO Platform Whitepaper</h1>
+  <header>
+    <img src="../svg/logo/index.svg" height="100" />
+    <h1>Platform Whitepaper</h1>
+  </header>
   <x-article-nav>${mdHtml}</x-article-nav>
+  <a href="#" up>&uarr;</a>
   <footer>&copy; 2024 jam-do.org</footer>
 </body>
 </html>

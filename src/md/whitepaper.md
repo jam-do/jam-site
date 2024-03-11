@@ -14,15 +14,15 @@ If you want a simple web page, you can use simple static HTML and a simple web s
 
 ### Problems of no-code systems
 
-One of the solutions to the problem described above could be **no-code** systems - applications and services that allow you to work with websites using graphical interfaces. 
+One of the solutions to the problem described above could be **no-code** systems — applications and services that allow you to work with websites using graphical interfaces. 
 
 However, the graphical interface itself creates its own set of problems, such as:
-- Lack of flexibility - any problem that goes beyond the basic workflow can become unsolvable.
+- Lack of flexibility — any problem that goes beyond the basic workflow can become unsolvable.
 - Limitations of built-in text editors: formatting, available widgets, content types, etc. (one of the most frequently mentioned problems)
 - The complexity of the interfaces of advanced systems may exceed the complexity of solving the problem using programming or formatting at the code editing level. It's easy for people to get lost among the huge number of buttons and panels. Using complex interfaces also requires training and experience.
 - Difficulty in organizing collaboration, version control, and reviewing changes.
 - You still have to edit the code: in templates, widgets, extensions.
-- Proprietary services - your site does not belong to you.
+- Proprietary services — your site does not belong to you.
 - Difficulty moving/transferring to another platform.
 - The problem of a “black box” is that you may not know or control what exactly is happening to your site “under the hood” of such system.
 - To solve some problems, it is necessary to create overly complex interfaces that are complex in themselves (for example, drag-n-drop in combination with scrolling), that is, they require huge labor costs to create and support, which also significantly limits the flexibility of the system and its development.
@@ -50,7 +50,7 @@ Such technologies are:
 - AI (Artificial Intelligence)
 - Blockchain
 
-Accessible augmented reality can change a lot in the perception and consumption patterns of web content, in the principles of interaction with interfaces and the presentation of information. One of the basic limitations of modern UX engineering - the size of the screen of your device - will cease to exist, because the screen can become “infinite” in virtual reality.
+Accessible augmented reality can change a lot in the perception and consumption patterns of web content, in the principles of interaction with interfaces and the presentation of information. One of the basic limitations of modern UX engineering — the size of the screen of your device — will cease to exist, because the screen can become “infinite” in virtual reality.
 
 Generative artificial intelligence will be able, in real time, to adapt your work flow to your specific interaction case, literally creating an interface for you, here and now. We call this principle “neurocasting”. You will see banking applications, news sites, entertainment resources, infographics created specifically for you, taking into account your interests, needs, and specific task.
 
@@ -58,7 +58,7 @@ However, in such a world it will be easy to lose control over what is happening 
 
 ## The Solution
 
-**JAM DO** - PaaS (Platform as a Service) - a platform for developing web solutions that allows you to solve simple problems - simply, while supporting all the best practices of modern web development, such as:
+**JAM DO** — PaaS (Platform as a Service) — a platform for developing web solutions that allows you to solve simple problems — simply, while supporting all the best practices of modern web development, such as:
 - collaborative teamwork
 - version control
 - using CDN for fast and reliable access to resources
@@ -70,7 +70,7 @@ However, in such a world it will be easy to lose control over what is happening 
 
 Our goal is to return the Internet to the people, to make sure that the majority only need to create a simple HTML file in order to have their own Internet presence, like in the good old days, but with all the modern capabilities of the web platform.
 
-[The acronym JAM has become a common acronym for the combination - JavaScript + API + Markup]
+[The acronym JAM has become a common acronym for the combination — JavaScript + API + Markup]
 
 All these are beautiful words, but how to achieve this in reality?
 
@@ -78,7 +78,7 @@ Here are the main ingredients of our recipe:
 
 ### jam-x
 
-**jam-x** ("x" - for “extension”) is an HTML framework - open source library - an extension of standard HTML that allows you to solve many problems without the need for JavaScript and CSS. (https://tonyennis.com/blog/M3WoiPA5P-comparing-the-readability-and-learning-curve-of-html) 
+**jam-x** ("x" — for “extension”) is an HTML framework — open source library — an extension of standard HTML that allows you to solve many problems without the need for JavaScript and CSS. (https://tonyennis.com/blog/M3WoiPA5P-comparing-the-readability-and-learning-curve-of-html) 
 
 Standard HTML is one of the simplest and most accessible parts of the modern web, which is easy to explain and understand. But HTML cannot do many simple things out of the box, such as connecting external modules, enriching markup with data, using markdown to easily work with blocks of text, using simple conditions and iterators, connecting ready-made templates and themes, optimizing images, and much more. All this becomes possible with jam-x.
 
@@ -88,15 +88,15 @@ Standard HTML is one of the simplest and most accessible parts of the modern web
 
 **jam-x** is not an opaque abstraction or a “black box” in which we try to hide unnecessary complexity; on the contrary, due to its conceptual proximity to the web platform itself, you will not have problems moving from simple solutions to advanced and more custom ones.
 
-**jam-x** - can work both exclusively in the browser, in fully dynamic mode, and on the server, allowing you to generate static pages. Also, a hybrid mode is possible, in which the developer himself flexibly controls which part of the application is processed by SSR (Server Side Rendering) and which remains dynamic.
+**jam-x** — can work both exclusively in the browser, in fully dynamic mode, and on the server, allowing you to generate static pages. Also, a hybrid mode is possible, in which the developer himself flexibly controls which part of the application is processed by SSR (Server Side Rendering) and which remains dynamic.
 
-**jam-x** - analyzes the document (tags used) and automatically includes the necessary dependencies, optimizing the total amount of loaded code according to your needs. You don't need to think about which scripts need to be connected, in what form and at what moment.
+**jam-x** — analyzes the document (tags used) and automatically includes the necessary dependencies, optimizing the total amount of loaded code according to your needs. You don't need to think about which scripts need to be connected, in what form and at what moment.
 
 Reverting to HTML is a pretty popular idea (https://html-first.com/, https://htmx.org/), we want to take it to the next level.
 
 ### JAM Cloud
 
-JAM Cloud  - (Smart CDN / Edge network) - allowing you to dynamically create, cache and distribute:
+JAM Cloud — (Smart CDN / Edge network) — allowing you to dynamically create, cache and distribute:
 - any text web assets (DWA), such as HTML, CSS, markdown, SVG, JSON, JavaScript, Code NFT (including A/B tests)
 - Data in JSON file format in CDN
 - media resources such as images, video, audio, 3D (service provided by partners)
@@ -111,7 +111,7 @@ JAM Cloud (IaaS) is a commercial service (with some free features) that will be 
  
 In other words, DWA is the ability to get any part of your web application (HTML, CSS, JS, SVG, markdown), or the entire application, in the form you need (minification; assembly) via URL (relative local path, or via CDN), using the universal JavaScript Template Literals standard as the source format.
 
-All you need to do is add a link to your DWA file on GitHub in our CDN URL. It's that simple. The working mechanism is very similar to how popular JS CDNs work, such as https://esm.run. You only need to name your JavaScript file according to the scheme: `index.html.js` - and it will be automatically converted to `index.html`.
+All you need to do is add a link to your DWA file on GitHub in our CDN URL. It's that simple. The working mechanism is very similar to how popular JS CDNs work, such as https://esm.run. You only need to name your JavaScript file according to the scheme: `index.html.js` — and it will be automatically converted to `index.html`.
 
 Since DWA is a JavaScript file with its own dependencies (module import), other DWAs can also be used as modules to resolve these dependencies. This means that every time someone uses your DWA file as a dependency to generate their asset, a blockchain record is created that contains information about the entire build chain. This allows you to control copyright compliance and automate the distribution of income between all contributors in commercial projects. For example, the author of an article (file in markdown format) can automatically receive income from advertising on the page on which it is posted. 
 
@@ -120,7 +120,7 @@ Since DWA is a JavaScript file with its own dependencies (module import), other 
 Advantages of DWA:
 - Flat learning curve: for simple tasks you only need basic HTML and the “export default” keyword line
 - The ability to use the full power of modern JavaScript to create assets in formats where imperative programming capabilities (loops, conditions, templates, asynchronous requests, dynamic imports) are very limited or absent: (HTML, CSS, SVG, markdown)
-- The ability to get what you want without installing or configuring development environment tools (build, minification, etc.) - JAM Cloud will do everything.
+- The ability to get what you want without installing or configuring development environment tools (build, minification, etc.) — JAM Cloud will do everything.
 - Security: a verifiable hash is available for each version of any text asset in the CDN
 - Fully compatible with jam-x and other platform parts
 - All other advantages of the JAMStack approach (https://jamstack.org/): load resistance, high delivery speed, etc.
@@ -128,11 +128,11 @@ Advantages of DWA:
 
 ### JAM Composer
 
-JAM Composer - web version of VS Code IDE + browser extensions (for accessing local project files), pre-configured and optimized to work with our ecosystem. Users will not have to install or configure anything to work with our platform; work can begin immediately after the task is formulated.
+JAM Composer — web version of VS Code IDE + browser extensions (for accessing local project files), pre-configured and optimized to work with our ecosystem. Users will not have to install or configure anything to work with our platform; work can begin immediately after the task is formulated.
 
 ### JAM AI
 
-JAM AI - a GPT model additionally trained to work with our system, which can advise the user at any stage of his work in the immediate context of his tasks.
+JAM AI — a GPT model additionally trained to work with our system, which can advise the user at any stage of his work in the immediate context of his tasks.
 
 The AI ​​assistant is a factor that further reduces the entry threshold for working with the platform, making it easier to work with documentation and allowing even beginners to navigate the presented tools.
 
@@ -142,17 +142,17 @@ A very important point is that we are working on a special format for communicat
 
 ### JAM Market
 
-JAM Market - a marketplace of ready-made solutions (widgets, services), free and commercial, that can be connected to your projects with ease.
+JAM Market — a marketplace of ready-made solutions (widgets, services), free and commercial, that can be connected to your projects with ease.
 
 ### JAM DAO
 
-JAM DAO - tools for integrating blockchain economics into work processes and team management. The project contribution of each user of the platform can be presented in the form of a set of NFTs (git commit = NFT) and tied to the corresponding smart contracts to automate payment for work or distribute income of teams, to form developer ratings, to form models for shared ownership of the code base, investments and much more.
+JAM DAO — tools for integrating blockchain economics into work processes and team management. The project contribution of each user of the platform can be presented in the form of a set of NFTs (git commit = NFT) and tied to the corresponding smart contracts to automate payment for work or distribute income of teams, to form developer ratings, to form models for shared ownership of the code base, investments and much more.
 
 By introducing blockchain into processes, we will make it possible to bring micro-products (widgets, services) to the market for small distributed teams who will not need to solve the problems of registering international companies and maintaining complex international accounting.
 
 Thus, our platform can become a springboard for talented developers in all countries, and will become a factor in the fight against poverty in countries with economic problems. It will become easier for developers to unite to jointly solve problems and implement their ideas.
 
-We want to introduce the term DAT - Distributed Autonomous Teams
+We want to introduce the term DAT — Distributed Autonomous Teams
 
 ## Monetization model
 
@@ -175,7 +175,7 @@ The basis of our development strategy is the Lean approach, when the necessary a
 - First stage (MVP):
   - Release of the Open Source library jam-x (publishing code + website with documentation)
   - Running core JAM Cloud features (AWS + CloudFront + node.js + esbuild)
-  - Start of an active marketing company (direct audience attraction and attraction through proxy channels - Open Source, Dev Rel marketing)
+  - Start of an active marketing company (direct audience attraction and attraction through proxy channels — Open Source, Dev Rel marketing)
 
 - Second phase:
   - Connecting an affiliate Smart CDN (media files) to the infrastructure
@@ -208,11 +208,11 @@ We held focus groups and meetups where we discussed the prospects for implementi
 
 Basic platform library jam-x based on the general purpose frontend library **Symbiote.js** (MIT, https://symbiotejs.org), which allows you to create custom HTML tags directly using templates in HTML format or take control of parts of the HTML document markup to process them with the appropriate logic.
 
-The main conceptual difference between Symbiote.js and a similar library - Lit (https://lit.dev/) - is that to describe reactive dynamic data binding to HTML elements, as well as to establish connections between components, HTML itself is sufficient (both in JS runtime and outside it), where these connections can be described in the form of HTML-attributes. This opens up enormous possibilities for integrated solutions and greatly simplifies the creation of hybrid applications, which can consist of a part pre-built on the server and a completely dynamic part running in the browser. That's why Symbiote.js is used as the basis for the jam-x HTML framework.
+The main conceptual difference between Symbiote.js and a similar library — Lit (https://lit.dev/) — is that to describe reactive dynamic data binding to HTML elements, as well as to establish connections between components, HTML itself is sufficient (both in JS runtime and outside it), where these connections can be described in the form of HTML-attributes. This opens up enormous possibilities for integrated solutions and greatly simplifies the creation of hybrid applications, which can consist of a part pre-built on the server and a completely dynamic part running in the browser. That's why Symbiote.js is used as the basis for the jam-x HTML framework.
 
 Currently, the Symbiote.js library is showing a steady increase in popularity according to npm weekly download statistics.
 
-**Symbiote.js** - was created and maintained by one of the founders of the this project as a response to special needs and tasks specific to the creation of integrated solutions such as widgets, microfrontends, meta-applications and universal libraries of UI components.
+**Symbiote.js** — was created and maintained by one of the founders of the this project as a response to special needs and tasks specific to the creation of integrated solutions such as widgets, microfrontends, meta-applications and universal libraries of UI components.
 
 **Symbiote.js** is a tool for creating agnostic solutions that can be integrated into any modern web development stack.
 
@@ -220,7 +220,7 @@ In addition to jam-x and Symbiote.js, our ecosystem includes the jam-tools libra
 
 ### Proprietary
 
-Our proprietary technology is JAM Cloud - PaaS - Edge CDN, which allows you to process requests for the delivery of the necessary DWA web assets (cloud assembly, transformation). Under the hood - node.js + SWC (https://swc.rs/) + esbuild (https://esbuild.github.io/)  
+Our proprietary technology is JAM Cloud — PaaS — Edge CDN, which allows you to process requests for the delivery of the necessary DWA web assets (cloud assembly, transformation). Under the hood — node.js + SWC (https://swc.rs/) + esbuild (https://esbuild.github.io/)  
 
 Our infrastructure solutions are currently based on AWS (Amazon Web Services).
 
@@ -244,7 +244,7 @@ GitHub is the best ecosystem for a developer today. We plan to use the capabilit
 
 https://vercel.com/
 
-A platform with a similar promotion model - through an open library (Next.js) and specialized infrastructure.
+A platform with a similar promotion model — through an open library (Next.js) and specialized infrastructure.
 
 For us, it is an example of how complications arise due to the isolation of many developers on their meta-platform. Vivid examples include how server components are implemented and the hydration mechanism used, as well as routing.
 
@@ -270,7 +270,7 @@ A good example of a no-code visual editor with a complex interface.
 
 ### Audience
 
-Our goal is to attract a mass audience of a wide range of specialists, such as marketers, analysts, designers, engineers, crypto enthusiasts - all those who are not directly professional web developers, but are often faced with the task of creating web representation (landing pages, websites with documentation, portfolio and other web projects).
+Our goal is to attract a mass audience of a wide range of specialists, such as marketers, analysts, designers, engineers, crypto enthusiasts — all those who are not directly professional web developers, but are often faced with the task of creating web representation (landing pages, websites with documentation, portfolio and other web projects).
 
 We want to interest all those for whom mastering the basic principles of HTML is not a problem, but there is no time or opportunity to understand full-fledged programming in JavaScript and modern browser APIs.
 
@@ -302,9 +302,9 @@ Much will depend on the success of the Initial Token Offering (ITO) and possible
 
 ## Team, experience, expertise
 
-For any ambitious project, the experience, competencies and personal qualities of the founders and key players of the team play a key role. The core of the team should be balanced and include specialists in different fields who complement and strengthen each other, like a harmonious squad in a classic RPG - “elf”, “mage”, “dwarf”, “warrior”, etc. When In this regard, it is important to highlight leaders, since both the team balance and the general level of engineering culture directly depend on them.
+For any ambitious project, the experience, competencies and personal qualities of the founders and key players of the team play a key role. The core of the team should be balanced and include specialists in different fields who complement and strengthen each other, like a harmonious squad in a classic RPG — “elf”, “mage”, “dwarf”, “warrior”, etc. When In this regard, it is important to highlight leaders, since both the team balance and the general level of engineering culture directly depend on them.
 
-We are the founders of the project - two brothers, emigrants of Russian origin, currently living in Argentina.
+We are the founders of the project — two brothers, emigrants of Russian origin, currently living in Argentina.
 
 ### Sergey Matiyasevich
 
@@ -331,7 +331,7 @@ https://www.youtube.com/watch?v=Tv1MEWZaDWo
 
 Was engaged in the supply of independently developed and produced equipment for 3D scanning around the world, from the USA to Japan.
 
-Led a project on high-quality three-dimensional scanning of art objects in one of the leading museums in the world - the Hermitage (St. Petersburg, Russia).
+Led a project on high-quality three-dimensional scanning of art objects in one of the leading museums in the world — the Hermitage (St. Petersburg, Russia).
 
 ## Social aspect
 
@@ -358,8 +358,8 @@ In any case, we will study various work schemes and opportunities to conduct leg
 - A combination of affordable low-code solutions and flexible advanced capabilities, at the intersection of which a new market is born
 - Integrated blockchain tools (distributed autonomous teams, contribution = NFT)
 - Integrated AI tools (assistants, agent-generator components)
-- Participants and active users - are co-owners of the platform itself
-- No-build environment - DWA deployment does not require a build step (JAM Cloud is responsible for that)
+- Participants and active users — are co-owners of the platform itself
+- No-build environment — DWA deployment does not require a build step (JAM Cloud is responsible for that)
 - Openness: the assembly point of a web solution is always an HTML document, and therefore the platform is open to everything that uses web technologies and web standards
 
 ## For investors
@@ -368,8 +368,8 @@ In any case, we will study various work schemes and opportunities to conduct leg
 
 > The entire code base of the platform (including infrastructure configurations, except for the Symbiote.js code) is the collective property of all investors and co-owners (in the form of ownership of shares of the total Code NFT array).
 
-**Foundation DAO** - is a form of organization for founders, key partners and key investors. This DAO has the right to conduct strategic voting and issues privileged tokens with increased voting power to ensure governance and access to proprietary internal development information.
+**Foundation DAO** — is a form of organization for founders, key partners and key investors. This DAO has the right to conduct strategic voting and issues privileged tokens with increased voting power to ensure governance and access to proprietary internal development information.
 
-**First Wave DAO** - basic tokens for investors.
+**First Wave DAO** — basic tokens for investors.
 
-**Community DAO** - tokens of platform users (each payment is a purchase of a token with a time lock) - ensure a stable demand for tokens, which helps attract new investors.
+**Community DAO** — tokens of platform users (each payment is a purchase of a token with a time lock) — ensure a stable demand for tokens, which helps attract new investors.
