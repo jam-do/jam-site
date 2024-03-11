@@ -70,7 +70,7 @@ However, in such a world it will be easy to lose control over what is happening 
 
 Our goal is to return the Internet to the people, to make sure that the majority only need to create a simple HTML file in order to have their own Internet presence, like in the good old days, but with all the modern capabilities of the web platform.
 
-[The acronym JAM has become a common acronym for the combination — JavaScript + API + Markup]
+> The acronym JAM has become a common for the combination — JavaScript + API + Markup
 
 All these are beautiful words, but how to achieve this in reality?
 
@@ -91,6 +91,14 @@ Standard HTML is one of the simplest and most accessible parts of the modern web
 **jam-x** — can work both exclusively in the browser, in fully dynamic mode, and on the server, allowing you to generate static pages. Also, a hybrid mode is possible, in which the developer himself flexibly controls which part of the application is processed by SSR (Server Side Rendering) and which remains dynamic.
 
 **jam-x** — analyzes the document (tags used) and automatically includes the necessary dependencies, optimizing the total amount of loaded code according to your needs. You don't need to think about which scripts need to be connected, in what form and at what moment.
+
+For the more detailed example, the content part of this page is rendered by jam-x and the source code looks like this:
+```html
+<x-article-nav>
+  <x-md src="../md/whitepaper.md"></x-md>
+</x-article-nav>
+```
+In this case, `x-article-nav` tag is used by browser to render the left-side navigation panel. And `x-md` tag is used by server to render the external markdown document into HTML format.
 
 Reverting to HTML is a pretty popular idea (https://html-first.com/, https://htmx.org/), we want to take it to the next level.
 
@@ -282,7 +290,7 @@ Thus, we want to make our platform a place where the first part of the audience 
 
 Based on the fact that we, conditionally, divide the audience into two parts, our marketing strategies aimed at these two audience segments will also be divided.
 
-For the mass part of the audience, we will promote the concept of a simple low-code solution, where much is solved by analogy with inserting a simple image into an HTML document (`<img src=”./my-img.png”>`), but with a large number of options (`<x-import src=”./article.md">`).
+For the mass part of the audience, we will promote the concept of a simple low-code solution, where much is solved by analogy with inserting a simple image into an HTML document (`<img src=”./my-img.png” />`), but with a large number of options (`<x-md src=”./article.md">`).
 
 We will also target those who have already had experience interacting with other solutions and platforms and have a negative experience (disappointment).
 
