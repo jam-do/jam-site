@@ -12,7 +12,7 @@ html, body {
   margin: 0;
   background-color: #eee;
   color: #212121;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -84,6 +84,12 @@ ul {
   padding: 0;
   margin-top: 20px;
   margin-bottom: 20px;
+
+  p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
 }
 ul > li {
   display: block;

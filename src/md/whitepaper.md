@@ -76,7 +76,7 @@ All these are beautiful words, but how to achieve this in reality?
 
 Here are the main ingredients of our recipe:
 
-### jam-x
+### JAM-X
 
 **jam-x** ("x" — for “extension”) is an HTML framework — open source library — an extension of standard HTML that allows you to solve many problems without the need for JavaScript and CSS. (https://tonyennis.com/blog/M3WoiPA5P-comparing-the-readability-and-learning-curve-of-html) 
 
