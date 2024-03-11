@@ -35,6 +35,7 @@ export default /*html*/ `
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JAM-DO Platform Whitepaper</title>
+  <link rel="icon" href="../svg/ico/index.svg">
   <link rel="stylesheet" href="../css/wp/index.css">
   <script src="https://esm.run/jam-xxx@1.1.1/tags/widgets/x-article-nav.js" type="module"></script>
 </head>
