@@ -18,7 +18,7 @@ One of the solutions to the problem described above could be **no-code** systems
 
 However, the graphical interface itself creates its own set of problems, such as:
 - Lack of flexibility — any problem that goes beyond the basic workflow can become unsolvable.
-- Limitations of built-in text editors: formatting, available widgets, content types, etc. (one of the most frequently mentioned problems)
+- Limitations of built-in text editors: formatting, available widgets, content types, etc. (one of the most frequently mentioned problems).
 - The complexity of the interfaces of advanced systems may exceed the complexity of solving the problem using programming or formatting at the code editing level. It's easy for people to get lost among the huge number of buttons and panels. Using complex interfaces also requires training and experience.
 - Difficulty in organizing collaboration, version control, and reviewing changes.
 - You still have to edit the code: in templates, widgets, extensions.
@@ -59,13 +59,13 @@ However, in such a world it will be easy to lose control over what is happening 
 ## The Solution
 
 **JAM DO** — PaaS (Platform as a Service) — a platform for developing web solutions that allows you to solve simple problems — simply, while supporting all the best practices of modern web development, such as:
-- collaborative teamwork
-- version control
-- using CDN for fast and reliable access to resources
-- unlimited expandability and flexibility
-- transparency and openness
-- safety
-- built-in blockchain model
+- Collaborative teamwork
+- Version control
+- Using CDN for fast and reliable access to resources
+- Unlimited expandability and flexibility
+- Transparency and openness
+- Safety
+- Built-in blockchain model
 - AI assistant help
 
 Our goal is to return the Internet to the people, to make sure that the majority only need to create a simple HTML file in order to have their own Internet presence, like in the good old days, but with all the modern capabilities of the web platform.
@@ -105,11 +105,11 @@ Reverting to HTML is a pretty popular idea (https://html-first.com/, https://htm
 ### JAM Cloud
 
 JAM Cloud — (Smart CDN / Edge network) — allowing you to dynamically create, cache and distribute:
-- any text web assets (DWA), such as HTML, CSS, markdown, SVG, JSON, JavaScript, Code NFT (including A/B tests)
+- Any text web assets (DWA), such as HTML, CSS, markdown, SVG, JSON, JavaScript, Code NFT (including A/B tests)
 - Data in JSON file format in CDN
-- media resources such as images, video, audio, 3D (service provided by partners)
-- results of serverless functions execution and access to your APIs
-- automatically downloaded dependencies for jam-x
+- Media resources such as images, video, audio, 3D (service provided by partners)
+- Results of serverless functions execution and access to your APIs
+- Automatically downloaded dependencies for jam-x
 
 JAM Cloud (IaaS) is a commercial service (with some free features) that will be one of the main monetization channels for the platform.
 
