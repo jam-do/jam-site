@@ -1,6 +1,6 @@
 ## The Problem...
 
-### The Increasing Complexity of Modern Web Development
+### The increasing complexity of modern web development
 
 You may have encountered discussions on social media reflecting on the simplicity of early web development, contrasting sharply with today's complexities. Originally, HTML served as a straightforward markup language for crafting basic web pages and linking them together.
 
@@ -185,7 +185,7 @@ Thus, our platform can become a springboard for talented developers in all count
 
 We want to introduce the term DAT — Distributed Autonomous Teams
 
-## Monetization model
+## Monetization Model
 
 The important thing is that each element of our platform can be used separately or in any combination with others. You can use commercial services or free solutions from our set using your own approaches and infrastructure. Free parts of the platform, in addition to their direct technical role, are also means of promoting the platform as a whole.
 
@@ -199,7 +199,7 @@ Main platforms monetization channels:
 - Affiliate programs (payment for Smart CDN functions for media resources: images, videos)
 - Services for integration and maintenance of standalone versions of system components (primarily JAM Engine)
 
-## Strategy and stages
+## Strategy and Stages
 
 The basis of our development strategy is the Lean approach, when the necessary and sufficient minimum resources are allocated for each hypothesis test. This applies to both the team formation policy, the required infrastructure, and the overall platform architecture. Whenever available, we plan to use existing solutions, and combinations of them where possible, avoiding any inflexible or potentially toxic dependencies.
 
@@ -255,7 +255,7 @@ Our proprietary technology is JAM Cloud — PaaS — Edge CDN, which allows you 
 
 Our infrastructure solutions are currently based on AWS (Amazon Web Services).
 
-## Competitive environment
+## Competitive Environment
 
 ### GitHub 
 
@@ -323,7 +323,7 @@ For the professional segment, we will promote both our technological solutions a
 
 We want to introduce the concept of joint ownership of the platform, where each participant can also be a co-owner-shareholder (a beneficiary of the overall popularity), in proportion to his contribution.
 
-## Project needs and initial fundraising goals
+## Project Needs and Initial Fundraising Goals
 
 At the moment, we need funds for the first stage of releasing platform elements (Public MVP: compilation of code and documentation, public launch of JAM Cloud, start of a marketing campaign and DevRel activities), payment for infrastructure (AWS), development of DAO contracts, additional research and experiments in the field of integration Web3 technologies.
 
@@ -331,7 +331,7 @@ At the moment, we need funds for the first stage of releasing platform elements 
 
 Much will depend on the success of the Initial Token Offering (ITO) and possible partnerships. In any case, we plan to complete the tasks of the first stage, even if it is not possible to raise funds in a significant amount, but, as expected, with less efficiency. The approximate time frame for the first stage is 4 months from the launch of ITO.
 
-## Team, experience, expertise
+## Team, Experience, Expertise
 
 For any ambitious project, the experience, competencies and personal qualities of the founders and key players of the team play a key role. The core of the team should be balanced and include specialists in different fields who complement and strengthen each other. In this regard, it is important to highlight leaders, since both the team balance and the general level of engineering culture directly depend on them.
 
@@ -362,7 +362,7 @@ Was engaged in the supply of independently developed and produced equipment for 
 
 Led a project on high-quality three-dimensional scanning of art objects in one of the leading museums in the world — the Hermitage (St. Petersburg, Russia).
 
-## Social aspect
+## Social Aspect
 
 The IT industry in general and web development in particular have become one of the few accessible social elevators in the modern world. Talented and motivated people in countries where the Internet is accessible, have the opportunity to escape poverty and provide a more decent standard of living for themselves and their surrounding.
 
@@ -391,7 +391,7 @@ In any case, we will study various work schemes and opportunities to conduct leg
 - No-build environment — DWA deployment does not require a build step (JAM Cloud is responsible for that)
 - Openness: the assembly point of a web solution is always an HTML document, and therefore the platform is open to everything that uses web technologies and web standards
 
-## For future partners and investors
+## Investors and Partners
 
 **JAM-DO** is very much a research project in which various concepts will be created and tested. We don’t know for sure which of them will be the most commercially successful and socially useful; we have to test many hypotheses. It is necessary to be aware of the risks and features of the R&D processes associated with them. There is a possibility that a positive result will be achieved only in certain areas and our development strategy will be significantly adjusted.
 
