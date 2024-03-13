@@ -333,32 +333,30 @@ Much will depend on the success of the Initial Token Offering (ITO) and possible
 
 ## Team, experience, expertise
 
-For any ambitious project, the experience, competencies and personal qualities of the founders and key players of the team play a key role. The core of the team should be balanced and include specialists in different fields who complement and strengthen each other, like a harmonious squad in a classic RPG — “elf”, “mage”, “dwarf”, “warrior”, etc. When In this regard, it is important to highlight leaders, since both the team balance and the general level of engineering culture directly depend on them.
+For any ambitious project, the experience, competencies and personal qualities of the founders and key players of the team play a key role. The core of the team should be balanced and include specialists in different fields who complement and strengthen each other. In this regard, it is important to highlight leaders, since both the team balance and the general level of engineering culture directly depend on them.
 
-We are the founders of the project — two brothers, emigrants of Russian origin, currently living in Argentina.
+So, We are the founders of this project — two brothers, emigrants of Russian origin, currently living in Argentina. We are the crypto enthusiasts who believes that the world should always have an alternative to have a healthy ballance.
 
-### Alex Matiyasevich
+### Alex Matiasevich
 
 44 years old, Fullstack web-developer, R&D engineer, UI/UX engineer
 
 Has experience in managing teams and processes, attracting investments, negotiating at any level, solving both operational and purely technical issues.
 
-Has the qualities of a leader, his own philosophy and vision, as well as deep practical knowledge in the subject area.
+Has the qualities of a leader, own philosophy and vision, as well as deep practical knowledge in the subject area.
 
 The author and main maintainer of the software libraries included in the platform ecosystem. Has experience working with Open Source and is well versed in the specifics of working with the developer community.
 
-Has led several startups and spoken at various conferences and industry events.
+### Vladimir Matiasevich
 
-### Vladimir Matiyasevich
-
-40 years old, Fullstack web-developer, R&D engineer, hardware engineer, 3D designer
+40 years old, Fullstack Web-Developer, R&D Engineer, Hardware Engineer, 3D Designer
 
 Has experience in organizing small-scale production, developing software and hardware systems for various tasks, from equipment for 3D scanning to distributed SMS notification management systems.
 
 Has experience in automating marketing campaigns with emulation of user activity and the use of AI, data analysis and evaluation of the effectiveness of promotion channels.
 
 The author of the software and hardware Open Source project PhotoPizza:
-https://www.youtube.com/watch?v=Tv1MEWZaDWo 
+https://www.youtube.com/@PhotoPizza
 
 Was engaged in the supply of independently developed and produced equipment for 3D scanning around the world, from the USA to Japan.
 
