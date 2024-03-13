@@ -341,7 +341,7 @@ So, We are the founders of this project — two brothers, emigrants of Russian o
 
 44 years old, Fullstack web-developer, R&D engineer, UI/UX engineer
 
-Has experience in managing teams and processes, attracting investments, negotiating at any level, solving both operational and purely technical issues.
+Has an experience in managing teams and processes, attracting investments, negotiating at any level, solving both operational and purely technical issues at CEO and CTO roles.
 
 Has the qualities of a leader, own philosophy and vision, as well as deep practical knowledge in the subject area.
 
