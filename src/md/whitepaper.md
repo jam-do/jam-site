@@ -92,15 +92,15 @@ Standard HTML is one of the simplest and most accessible parts of the modern web
 
 **jam-x** — analyzes the document (tags used) and automatically includes the necessary dependencies, optimizing the total amount of loaded code according to your needs. You don't need to think about which scripts need to be connected, in what form and at what moment.
 
-For the more detailed example, the content part of this page is rendered by jam-x and the source code looks like this:
+For the more detailed example, the content part of this page is rendered by jam-x and the source code of it looks like this:
 ```html
 <x-article-nav>
   <x-md src="../md/whitepaper.md"></x-md>
 </x-article-nav>
 ```
-In this case, `x-article-nav` tag is used by browser to render the left-side navigation panel. And `x-md` tag is used by server to render the external markdown document into HTML format.
+In this case, `x-article-nav` tag is used by browser to render the left-side navigation panel. It analyzing the content of the article and shows the headings. And `x-md` tag is used by server to render the external markdown document into HTML format. And this is almost all you need to publish your article.
 
-Reverting to HTML is a pretty popular idea (https://html-first.com/, https://htmx.org/), we want to take it to the next level.
+Reverting to HTML is a pretty popular idea (https://html-first.com/, https://htmx.org/), and we want to take it to the next level.
 
 ### JAM Cloud
 
@@ -123,7 +123,20 @@ All you need to do is add a link to your DWA file on GitHub in our CDN URL. It's
 
 Since DWA is a JavaScript file with its own dependencies (module import), other DWAs can also be used as modules to resolve these dependencies. This means that every time someone uses your DWA file as a dependency to generate their asset, a blockchain record is created that contains information about the entire build chain. This allows you to control copyright compliance and automate the distribution of income between all contributors in commercial projects. For example, the author of an article (file in markdown format) can automatically receive income from advertising on the page on which it is posted. 
 
-> DWA = NFT
+> DWA = NFT  —  it means that since DWA-file is deployed to JAM Cloud, it can be represented by NFT with metadata accessible in blockchain automatically
+
+DWA-page code example (index.html.js):
+```js
+export default html`
+  <x-page meta="../json/my-site-meta.json" mode="server">
+    <x-template src="../templates/my-template.html">
+      <x-nav data="../json/navigation-data.json" slot="nav"></x-nav>
+      <x-md src="../md/my-article.md" slot="content"></x-md>
+      <x-comments slot="comments" mode="client"></x-comments>
+    </x-template>
+  </x-page>
+`;
+```
 
 Advantages of DWA:
 - Flat learning curve: for simple tasks you only need basic HTML and the “export default” keyword line
@@ -133,6 +146,8 @@ Advantages of DWA:
 - Fully compatible with jam-x and other platform parts
 - All other advantages of the JAMStack approach (https://jamstack.org/): load resistance, high delivery speed, etc.
 - DWA = NFT
+
+DWA engine works very similar to PHP (hypertext preprocessor), but in addition it can be automatically processed by Edge CDN (JAM Cloud), and to be bound to the blockchain with some metadata containing information about contributions and other. Other words, it's like a cloud PHP with a same syntax as at frontend, with ability of isomorphic modules usage.
 
 ### JAM Composer
 
@@ -147,6 +162,12 @@ The AI ​​assistant is a factor that further reduces the entry threshold for 
 One of the important aspects we explore in our work with AI is the issue of accessibility. Often, the issue of accessibility for your web solutions can be overly complex and a separate subject area in which you may need extensive knowledge. We want to largely shift the responsibility for accessibility to AI tools.
 
 A very important point is that we are working on a special format for communication with AI, which can provide control over the structure and formal part of requests and responses. This format can provide security, stability and readability of interactions with AI and be the basis for neurocasting technology.
+
+This is an example of how JAM AI works with JAM-X library:
+```html
+<x-ai-img prompt="picture of a cute kitten"></x-ai-img>
+<x-ai-text prompt="the story about the little kitten who loves to play"></x-ai-text>
+```
 
 ### JAM Market
 
