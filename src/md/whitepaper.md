@@ -6,9 +6,9 @@ You may have encountered discussions on social media reflecting on the simplicit
 
 Currently, an HTML document acts more as a configuration tool for launching a web application, incorporating numerous technologies beyond mere hypertext. The web's evolution narrates the transformation of the simple hypertext concept into a comprehensive platform for application development. While this progression has unlocked vast opportunities for creativity and business, it has simultaneously erected barriers for individuals not deeply versed in web development, preventing them from easily creating web resources.
 
-There was a period when developers' needs surpassed the capabilities of the "native" web, necessitating additional tools for tackling development challenges. Examples include JQuery, CommonJS, CSS preprocessors, bundlers, and UI libraries with exclusive component models like React.
+There was a period when developer's needs surpassed the capabilities of the "native" web, necessitating additional tools for tackling development challenges. Examples include JQuery, CommonJS, CSS preprocessors, bundlers, and UI libraries with exclusive component models like React.
 
-However, the web platform, encompassing language standards, browser APIs, and Node has significantly evolved, offering solutions that obsolete many previously essential external tools. It now delivers these solutions more efficiently, securely, and user-friendly. Despite these advancements, the web industry's inertia and the potential conflict between new features and earlier, popular tools pose a paradox.
+However, the web platform, encompassing language standards, browser APIs, and Node.js has significantly evolved, offering solutions that obsolete many previously essential external tools. It now delivers these solutions more efficiently, securely, and user-friendly. Despite these advancements, the web industry's inertia and the potential conflict between new features and earlier, popular tools pose a paradox.
 
 Creating a simple web page remains straightforward with basic HTML and a web server. Yet, implementing consistent "header" and "footer" parts across multiple pages complicates manual updates. Similarly, formatting text blocks becomes cumbersome with HTML tags, especially compared to markdown format.  But markdown itself is not browser-supported, and HTML modules are not supported too.
 
@@ -108,8 +108,8 @@ Reverting to HTML is a pretty popular idea (https://html-first.com/, https://htm
 
 JAM Cloud — (Smart CDN / Edge network) — allowing you to dynamically create, cache and distribute:
 - Any text web assets (DWA), such as HTML, CSS, markdown, SVG, JSON, JavaScript, Code NFT (including A/B tests)
-- Data in JSON file format in CDN
-- Media resources such as images, video, audio, 3D (service provided by partners)
+- Data in JSON file format
+- Media resources such as images, video, audio, 3D (service is provided by partners)
 - Results of serverless functions execution and access to your APIs
 - Automatically downloaded dependencies for jam-x
 
@@ -149,7 +149,7 @@ Advantages of DWA:
 - All other advantages of the JAMStack approach (https://jamstack.org/): load resistance, high delivery speed, etc.
 - DWA = NFT
 
-DWA engine works very similar to PHP (hypertext preprocessor), but in addition it can be automatically processed by Edge CDN (JAM Cloud), and to be bound to the blockchain with some metadata containing information about contributions and other. Other words, it's like a cloud PHP with a same syntax as at frontend, with ability of isomorphic modules usage.
+DWA engine works very similar to PHP (hypertext preprocessor), but in addition it can be automatically processed by Edge CDN (JAM Cloud), and to be bound to the blockchain entries with some metadata containing information, for example, about contributions chain.
 
 ### JAM Composer
 
