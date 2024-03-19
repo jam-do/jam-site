@@ -27,6 +27,17 @@ x-article-nav {
     padding-top: 2em;
     padding-bottom: 2em;
   }
+
+  &::part(nav-item-h2) {
+    margin-top: 10px;
+  }
+
+  &::part(nav-item-h3) {
+    padding: 10px;
+    margin-bottom: 2px;
+    background-color: rgba(255, 255, 255, .4);
+    border-left: 1px solid rgba(0, 0, 0, .2);
+  }
 }
 
 h2:first-of-type {
@@ -37,7 +48,6 @@ header {
   display: grid;
   grid-template-columns: min-content auto;
   gap: 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
   ${columnMixin}
   padding: 10px;
 
@@ -112,6 +122,14 @@ blockquote {
 }
 blockquote p {
   margin: 0;
+}
+
+details {
+  padding: 20px;
+  background-color: #00f;
+  color: #fff;
+  ${columnMixin}
+  box-shadow: 4px 4px 0 rgba(0, 0, 100, .2);
 }
 
 code {
