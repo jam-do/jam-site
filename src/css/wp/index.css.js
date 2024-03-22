@@ -21,6 +21,9 @@ let aBtn = /*css*/ `
 `;
 
 export default /*css*/ `
+* {
+  box-sizing: border-box;
+}
 html, body {
   padding: 0;
   margin: 0;
@@ -103,6 +106,17 @@ a[form] {
   ${aBtn}
   right: 90px;
 }
+a[close] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 100%;
+  text-decoration: none;
+}
 
 ul {
   position: relative;
@@ -162,6 +176,10 @@ details {
       transform: rotate(-180deg);
     }
   }
+
+  a {
+    color: currentColor;
+  }
 }
 
 summary {
@@ -180,17 +198,56 @@ dialog-el {
   display: block;
   position: fixed;
   min-height: 200px;
-  min-width: 200px;
+  min-width: 300px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -40%);
   background-color: #212121;
   box-shadow: 6px 6px 0 rgba(0, 0, 0, .2);
   color: #fff;
-  padding: 20px;
   opacity: 0;
   transition: .4s;
   visibility: hidden;
+
+  toolbar-el {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    gap: 10px;
+  }
+
+  form {
+    padding: 20px;
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      height: 32px;
+      border: none;
+      border-bottom: 2px solid currentColor;
+      background-color: rgba(255, 255, 255, .1);
+      color: #fff;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    button {
+      height: 32px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
 }
 
 dialog-el:target {

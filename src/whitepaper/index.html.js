@@ -57,11 +57,19 @@ export default /*html*/ `
   <footer>&copy; 2024 jam-do.org</footer>
 
   <dialog-el id="form">
-    <a href="#close" close>✕</a>
-
-    <form>
-      <label>Email:</label>
-      <input type="email" required />
+    <toolbar-el> 
+      <div>🙂 Let's stay in touch</div>
+      <a href="#close" close>✕</a>
+    </toolbar-el> 
+    
+    <form 
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSftqP9Nu60pwyaxBOaS9Q7ASsajNp_LmV-c1aREjwx8UsoEPw/formResponse"
+      target="_self"
+      method="POST">
+      <label>Your Email:</label>
+      <input type="email" autocomplete="email" required />
+      <br />
+      <br />
       <button type="submit">Submit</button>
     </form>
   </dialog-el>
