@@ -41,17 +41,33 @@ export default /*html*/ `
   <script src="https://esm.run/jam-xxx@1.1.2/tags/widgets/x-article-nav.js" type="module"></script>
 </head>
 <body>
+
   <header>
     <img src="../svg/logo/index.svg" height="100" />
-    <h1>JAM-DO Platform Whitepaper</h1>
+    <h1>JAM-DO Platform White Paper</h1>
   </header>
+
   <details>
-    <summary>Short summary</summary>
+    <summary>&nbsp;&nbsp;Short summary</summary>
     <div>${await m2h('./src/md/whitepaper-summary.md')}</div>
   </details>
+
   <x-article-nav>${await m2h('./src/md/whitepaper.md')}</x-article-nav>
-  <a href="#" up>&uarr;</a>
+
   <footer>&copy; 2024 jam-do.org</footer>
+
+  <dialog-el id="form">
+    <a href="#close" close>✕</a>
+
+    <form>
+      <label>Email:</label>
+      <input type="email" required />
+      <button type="submit">Submit</button>
+    </form>
+  </dialog-el>
+
+  <a href="#" up>&uarr;</a>
+  <a href="#form" form>@</a>
 </body>
 </html>
 `.trim();

@@ -6,6 +6,20 @@ let columnMixin = `
   padding-right: 20px;
 `;
 
+let aBtn = /*css*/ `
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+`;
+
 export default /*css*/ `
 html, body {
   padding: 0;
@@ -21,6 +35,7 @@ body {
 
 x-article-nav {
   grid-template-columns: minmax(min-content, 240px) auto;
+  max-width: 100vw;
   ${columnMixin}
 
   &::part(article), &::part(nav) {
@@ -28,15 +43,26 @@ x-article-nav {
     padding-bottom: 2em;
   }
 
+  &::part(nav) {
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    padding-right: 2em;
+  }
+
   &::part(nav-item-h2) {
-    margin-top: 10px;
+    font-weight: bold;
   }
 
   &::part(nav-item-h3) {
-    padding: 10px;
-    margin-bottom: 2px;
-    background-color: rgba(255, 255, 255, .4);
-    border-left: 1px solid rgba(0, 0, 0, .2);
+    font-style: italic;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  x-article-nav {
+    display: block;
+  }
+  x-article-nav::part(nav) {
+    display: none;
   }
 }
 
@@ -64,25 +90,18 @@ header {
 
 footer {
   display: block;
-  border-radius: 4px;
-  border-top: 1px solid rgba(0, 0, 0, .2);
+  border-top: 1px solid rgba(0, 0, 0, .1);
   ${columnMixin}
   padding: 20px;
 }
 
 a[up] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
+  ${aBtn}
   right: 20px;
-  bottom: 20px;
-  height: 60px;
-  width: 60px;
-  border-radius: 100%;
-  background-color: #fff;
-  text-decoration: none;
-  color: #000;
+}
+a[form] {
+  ${aBtn}
+  right: 90px;
 }
 
 ul {
@@ -125,11 +144,59 @@ blockquote p {
 }
 
 details {
-  padding: 20px;
   background-color: #00f;
   color: #fff;
   ${columnMixin}
   box-shadow: 4px 4px 0 rgba(0, 0, 100, .2);
+  padding: 0;
+  user-select: none;
+
+  > div {
+    padding: 20px;
+  }
+
+  &[open] summary {
+    border-bottom: 1px dashed currentColor;
+
+    &::before {
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+summary {
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+
+  &::before {
+    display: inline-block;
+    content: '↓';
+    transition: .2s;
+  }
+}
+
+dialog-el {
+  display: block;
+  position: fixed;
+  min-height: 200px;
+  min-width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: #212121;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, .2);
+  color: #fff;
+  padding: 20px;
+  opacity: 0;
+  transition: .4s;
+  visibility: hidden;
+}
+
+dialog-el:target {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%);
 }
 
 code {

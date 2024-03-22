@@ -80,7 +80,7 @@ Here are the main ingredients of our recipe:
 
 ### JAM-X
 
-**jam-x** ("x" — for “extension”) is an HTML framework — open source library — an extension of standard HTML that allows you to solve many problems without the need for JavaScript and CSS. (https://tonyennis.com/blog/M3WoiPA5P-comparing-the-readability-and-learning-curve-of-html) 
+**jam-x** ("x" — for “extension”) is an HTML framework — open source library — an extension of standard HTML that allows you to solve many problems without the need for JavaScript and CSS. ([Comparing readability and learning curve](https://tonyennis.com/blog/M3WoiPA5P-comparing-the-readability-and-learning-curve-of-html))
 
 Standard HTML is one of the simplest and most accessible parts of the modern web, which is easy to explain and understand. But HTML cannot do many simple things out of the box, such as connecting external modules, enriching markup with data, using markdown to easily work with blocks of text, using simple conditions and iterators, connecting ready-made templates and themes, optimizing images, and much more. All this becomes possible with jam-x.
 
