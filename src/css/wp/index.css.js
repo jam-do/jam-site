@@ -161,7 +161,7 @@ details {
   background-color: #00f;
   color: #fff;
   ${columnMixin}
-  box-shadow: 4px 4px 0 rgba(0, 0, 100, .2);
+  box-shadow: 6px 6px 0 rgba(0, 0, 100, .2);
   padding: 0;
   user-select: none;
 
@@ -191,6 +191,10 @@ summary {
     display: inline-block;
     content: '↓';
     transition: .2s;
+  }
+
+  &::-webkit-details-marker {
+    display: none;
   }
 }
 
@@ -237,6 +241,16 @@ dialog-el {
       color: #fff;
       padding-left: 10px;
       padding-right: 10px;
+    }
+
+    textarea {
+      display: block;
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid currentColor;
+      background-color: rgba(255, 255, 255, .1);
+      color: #fff;
+      padding: 10px;
     }
 
     button {

@@ -26,6 +26,8 @@ function m2h(path) {
   });
 }
 
+let scriptTxt = fs.readFileSync('./src/whitepaper/wp.js').toString();
+
 export default /*html*/ `
 <!DOCTYPE html>
 <html lang="en">
@@ -62,12 +64,12 @@ export default /*html*/ `
       <a href="#close" close>✕</a>
     </toolbar-el> 
     
-    <form 
-      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSftqP9Nu60pwyaxBOaS9Q7ASsajNp_LmV-c1aREjwx8UsoEPw/formResponse"
-      target="_self"
-      method="POST">
+    <form>
       <label>Your Email:</label>
-      <input type="email" autocomplete="email" required />
+      <input type="email" autocomplete="email" name="email" required />
+      <br />
+      <label>Message (optional):</label>
+      <textarea type="text" name="message" rows="3"></textarea>
       <br />
       <br />
       <button type="submit">Submit</button>
@@ -76,6 +78,8 @@ export default /*html*/ `
 
   <a href="#" up>&uarr;</a>
   <a href="#form" form>@</a>
+
+  <script>${scriptTxt}</script>
 </body>
 </html>
 `.trim();

@@ -402,3 +402,5 @@ In any case, we will study various work schemes and opportunities to conduct leg
 **First Wave DAO** — basic tokens for investors.
 
 **Community DAO** — tokens of platform users (each payment is a purchase of a token with a time lock) — ensure a stable demand for tokens, which helps attract new investors.
+
+> Please, feel free to [contact](#form) us if you are interested or want to participate.
