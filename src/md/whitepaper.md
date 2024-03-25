@@ -349,18 +349,20 @@ The author and main maintainer of the software libraries included in the platfor
 
 ### Vladimir Matiasevich
 
-40 years old, Fullstack Web-Developer, R&D Engineer, Hardware Engineer, 3D Designer
+39 years old, Fullstack Web-Developer, R&D Engineer, Hardware Engineer, 3D Designer
 
 Has experience in organizing small-scale production, developing software and hardware systems for various tasks, from equipment for 3D scanning to distributed SMS notification management systems.
 
 Has experience in automating marketing campaigns with emulation of user activity and the use of AI, data analysis and evaluation of the effectiveness of promotion channels.
 
 The author of the software and hardware Open Source project PhotoPizza:
-https://www.youtube.com/@PhotoPizza
+https://www.instagram.com/diy.photopizza
 
 Was engaged in the supply of independently developed and produced equipment for 3D scanning around the world, from the USA to Japan.
 
 Led a project on high-quality three-dimensional scanning of art objects in one of the leading museums in the world — the Hermitage (St. Petersburg, Russia).
+
+Founder of a high-quality 3d-scanning studio F360: https://www.youtube.com/@PHOTOGRAMMETRY
 
 ## Social Aspect
 
