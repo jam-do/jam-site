@@ -53,7 +53,7 @@ export default /*html*/ `
 <body>
 
   <header>
-    <img src="../svg/logo/index.svg" height="100" />
+    <a href="../"><img src="../svg/logo/index.svg" height="100" /></a>
     <h1>JAM-DO Platform White Paper</h1>
   </header>
 

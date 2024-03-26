@@ -345,7 +345,7 @@ Has an experience in managing teams and processes, attracting investments, negot
 
 Has the qualities of a leader, own philosophy and vision, as well as deep practical knowledge in the subject area.
 
-The author and main maintainer of the software libraries included in the platform ecosystem. Has experience working with Open Source and is well versed in the specifics of working with the developer community.
+The author and main maintainer of the software libraries included in the platform ecosystem (incl. https://symbiotejs.org/). Has experience working with Open Source and is well versed in the specifics of working with the developer community.
 
 ### Vladimir Matiasevich
 
@@ -360,9 +360,11 @@ https://www.instagram.com/diy.photopizza
 
 Was engaged in the supply of independently developed and produced equipment for 3D scanning around the world, from the USA to Japan.
 
-Led a project on high-quality three-dimensional scanning of art objects in one of the leading museums in the world — the Hermitage (St. Petersburg, Russia).
+Has designed the technology and equipment for the 3D scanning with a stunning texture quality as the result, which is suitable for the purposes of art-objects digitalization. 
 
-Founder of a high-quality 3d-scanning studio F360: https://www.youtube.com/@PHOTOGRAMMETRY
+Had a technical leadership in the projects of 3d scanning of the art objects and historical artifacts in the world leading museums such as Hermitage (St. Petersburg, Russia).
+
+Founder of a 3d-scanning studio F360: https://www.youtube.com/@PHOTOGRAMMETRY
 
 ## Social Aspect
 
