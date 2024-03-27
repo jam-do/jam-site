@@ -237,7 +237,7 @@ We held focus groups and meetups where we discussed the prospects for implementi
 
 ### Open Source
 
-Basic platform library jam-x based on the general purpose frontend library **Symbiote.js** (MIT, https://symbiotejs.org), which allows you to create custom HTML tags directly using templates in HTML format or take control of parts of the HTML document markup to process them with the appropriate logic.
+Basic platform library jam-x based on the general purpose frontend library **Symbiote.js** (MIT, https://www.npmjs.com/package/@symbiotejs/symbiote), which allows you to create custom HTML tags directly using templates in HTML format or take control of parts of the HTML document markup to process them with the appropriate logic.
 
 The main conceptual difference between Symbiote.js and a similar library — Lit (https://lit.dev/) — is that to describe reactive dynamic data binding to HTML elements, as well as to establish connections between components, HTML itself is sufficient (both in JS runtime and outside it), where these connections can be described in the form of HTML-attributes. This opens up enormous possibilities for integrated solutions and greatly simplifies the creation of hybrid applications, which can consist of a part pre-built on the server and a completely dynamic part running in the browser. That's why Symbiote.js is used as the basis for the jam-x HTML framework.
 
