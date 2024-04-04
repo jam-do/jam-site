@@ -8,4 +8,4 @@ This is a list of main elements of our concept:
 - AI tools for the automated web-asset generation
 - Co-ownership of the whole platform with the users
 
-Please, feel free to [contact](#form) us if you are interested or want to participate.
+Please, feel free to [contact](#form) us if you are interested or want to participate. Or write us to team@jam-do.net

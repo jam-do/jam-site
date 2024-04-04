@@ -253,7 +253,7 @@ In addition to jam-x and Symbiote.js, our ecosystem includes the jam-tools libra
 
 Our proprietary technology is JAM Cloud — PaaS — Edge CDN, which allows you to process requests for the delivery of the necessary DWA web assets (cloud assembly, transformation). Under the hood — node.js + SWC (https://swc.rs/) + esbuild (https://esbuild.github.io/)  
 
-Our infrastructure solutions are currently based on AWS (Amazon Web Services).
+Our infrastructure are currently based on various [Cloudflare](https://www.cloudflare.com/) solutions.
 
 ## Competitive Environment
 
@@ -346,6 +346,8 @@ Has an experience in managing teams and processes, attracting investments, negot
 Has the qualities of a leader, own philosophy and vision, as well as deep practical knowledge in the subject area.
 
 The author and main maintainer of the software libraries included in the platform ecosystem (incl. https://symbiotejs.org/). Has experience working with Open Source and is well versed in the specifics of working with the developer community.
+
+Personal page: https://foxeyes.github.io/cv/
 
 ### Vladimir Matiasevich
 
