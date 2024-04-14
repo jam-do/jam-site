@@ -1,30 +1,5 @@
 import fs from 'fs';
-import { marked } from 'marked';
-import hljs from 'highlight.js';
-
-marked.setOptions({
-  highlight: (code, lang, callback) => {
-    code = hljs.highlight(code, {language: lang}).value;
-    callback && callback(undefined, code);
-  }
-});
-
-/**
- * 
- * @param {String} path
- * @returns 
- */
-function m2h(path) {
-  let txt = fs.readFileSync(path).toString();
-  return new Promise((resolve, reject) => {
-    marked.parse(txt, (err, html) => {
-      if (err) {
-        reject();
-      }
-      resolve(html);
-    });
-  });
-}
+import md, { year } from '../lib/md.js';
 
 let scriptTxt = fs.readFileSync('./src/whitepaper/wp.js').toString();
 
@@ -59,12 +34,12 @@ export default /*html*/ `
 
   <details>
     <summary>&nbsp;&nbsp;Short summary</summary>
-    <div>${await m2h('./src/md/whitepaper-summary.md')}</div>
+    <div>${await md('./src/md/whitepaper-summary.md')}</div>
   </details>
 
-  <x-article-nav>${await m2h('./src/md/whitepaper.md')}</x-article-nav>
+  <x-article-nav>${await md('./src/md/whitepaper.md')}</x-article-nav>
 
-  <footer>&copy; 2024 jam-do.org</footer>
+  <footer>&copy; ${year} jam-do.org</footer>
 
   <dialog-el id="form">
     <toolbar-el> 

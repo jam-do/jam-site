@@ -1,7 +1,5 @@
 import { data } from './data/data.js';
-import fs from 'fs';
-import { marked } from 'marked';
-import { applyData } from '@jam-do/jam-tools/iso/applyData.js';
+import md, { year } from './lib/md.js';
 import { htmlMin } from '@jam-do/jam-tools/iso/htmlMin.js';
 
 let cardsHtml = '';
@@ -16,14 +14,8 @@ for (let path in data) {
       </div>
     </a>
   `;
-  let mdDoc = fs.readFileSync(`./src/md/${path}.md`).toString();
-  let mdHtml = await marked(mdDoc);
-  let year = new Date(Date.now()).toLocaleDateString('en', {
-    year: 'numeric',
-  });
-  mdHtml = applyData(mdHtml, {
-    YEAR: year,
-  });
+  
+  let mdHtml = await md(`./src/md/${path}.md`);
   
   sectionsHtml += /*html*/ `
     <section clr id="${path}">
