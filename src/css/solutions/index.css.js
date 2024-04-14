@@ -1,3 +1,5 @@
+import { cssMin } from '@jam-do/jam-tools/iso/cssMin.js';
+
 const clrVar = (num) => {
   let variations = '';
   for (let i = 1; i <= num; i++) {
@@ -9,7 +11,7 @@ const clrVar = (num) => {
   return variations;
 };
 
-export default /*css*/ `
+export default cssMin( /*css*/ `
 :root {
   --clr-1: #000;
   --clr-2: #ccc;
@@ -206,4 +208,15 @@ footer {
   margin-bottom: 0;
   padding: 40px;
 }
-`;
+
+@media screen and (max-width: 800px) {
+  section {
+    margin: 10px;
+    padding: 10px;
+  }
+  card-el {
+    min-width: 280px;
+  }
+}
+  
+`);
