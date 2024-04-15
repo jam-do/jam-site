@@ -82,8 +82,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 16px;
     min-height: 100vh;
   }
 
@@ -169,6 +167,7 @@ section {
     justify-content: center;
     align-item: center;
     background-color: rgba(255, 255, 255, .1);
+    border-top: 2px solid rgba(255, 255, 255, .2);
     border-radius: 16px;
     max-width: 900px;
     margin-left: auto;
