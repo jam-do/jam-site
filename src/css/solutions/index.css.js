@@ -167,7 +167,7 @@ section {
     display: flex;
     justify-content: center;
     align-item: center;
-    background-color: hsl(-25deg, 70%, 30%);
+    background-color: rgba(255, 255, 255, .1);
     border-radius: 16px;
     max-width: 900px;
     margin-left: auto;
