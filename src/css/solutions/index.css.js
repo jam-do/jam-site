@@ -107,6 +107,7 @@ section {
     h2 {
       position: relative;
       display: block;
+      margin-top: 3em;
 
       &:before {
         position: absolute;
