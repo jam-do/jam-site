@@ -173,8 +173,13 @@ section {
     margin-left: auto;
     margin-right: auto;
 
+    [fade] {
+      opacity: .4;
+    }
+
     a {
       color: currentColor;
+      text-decoration: none;
     }
   }
 }
