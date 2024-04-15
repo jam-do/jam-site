@@ -20,11 +20,12 @@ We use the set of practices, that makes R&D less resource consuming, such as:
 
 ## Full stack
 
-- Data and surrounding markets analysis
+- Data analysis
+- Technical analysis
 - UI/UX from scratch
-- Frontend architecture and code
-- Backend architecture and code
-- Project infrastructure management
+- Frontend
+- Backend
+- Infrastructure management
 - Team management
 
 ## Technologies

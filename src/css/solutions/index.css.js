@@ -38,7 +38,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   font-size: 6vw;
   font-weight: bold;
   flex-flow: column;
@@ -210,13 +210,25 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  header {
+    min-height: unset;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
   section {
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+
+    &[why] {
+      padding-left: 30px;
+    }
+
+    &[mail] {
+      border-radius: 0;
+    }
   }
   card-el {
     min-width: 280px;
   }
 }
-  
 `);
