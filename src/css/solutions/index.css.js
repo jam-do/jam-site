@@ -1,11 +1,17 @@
 import { cssMin } from '@jam-do/jam-tools/iso/cssMin.js';
 
-const clrVar = (num) => {
+/**
+ * 
+ * @param {Number} num 
+ * @param {String} propName 
+ * @returns 
+ */
+const clrVar = (num, propName) => {
   let variations = '';
   for (let i = 1; i <= num; i++) {
     variations += /*css*/ `
     &:nth-of-type(${i}) {
-      background-color: hsl(${i * -25}deg, 70%, 30%);
+      ${propName}: hsl(${i * -25}deg, 70%, 30%);
     }`;
   }
   return variations;
@@ -116,25 +122,37 @@ section {
     }
 
     ul {
-      margin: 0;
-      padding: 0;
-      border-left: 1px solid rgba(255, 255, 255, .4);
+      position: relative;
       list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    
+      p {
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+      }
 
       li {
-        position: relative;
-        margin: 0;
-        padding: 0;
-
-        &:before {
-          display: inline-block;
-          content: '—';
-          margin-right: .6em;
-          color: rgba(255, 255, 255, .4);
-          transform: translateX(-1px);
+        display: block;
+        padding: 5px;
+        padding-left: 20px;
+        border-left: 1px solid rgba(255, 255, 255, .4);
+        margin-bottom: 0;
+  
+        &::before {
+          position: absolute;
+          left: 0;
+          content: "—";
+          opacity: .4;
+          color: currentColor;
+          text-shadow: 0 0 4px var(--clr-logo-1);
+          margin-right: var(--gap-mid);
         }
       }
     }
+    
   }
 
   [icons] {
@@ -197,7 +215,7 @@ card-el {
   box-shadow: 0 6px 16px rgba(0, 0, 0, .4);
   overflow: hidden;
 
-  ${clrVar(8)}
+  ${clrVar(8, 'background-color')}
 
   h2 {
     margin: 0;
@@ -230,6 +248,8 @@ footer {
 
     &[mail] {
       border-radius: 0;
+      font-size: 22px;
+      border: none;
     }
   }
   card-el {

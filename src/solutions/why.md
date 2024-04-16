@@ -8,7 +8,7 @@
 
 Our R&D approach minimizes resource consumption through:
 
-- Small, agile teams
+- Small, agile team
 - A streamlined technology stack
 - Effective risk and dependency management
 - Progressive enhancement
