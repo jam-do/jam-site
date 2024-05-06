@@ -37,8 +37,8 @@ body {
 }
 
 x-article-nav {
+  display: grid;
   grid-template-columns: minmax(min-content, 240px) auto;
-  max-width: 100vw;
   ${columnMixin}
 
   &::part(article), &::part(nav) {
