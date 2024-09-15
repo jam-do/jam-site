@@ -4,11 +4,11 @@
     "build": "node ./build.js",
     "dev": "node ./watch.js"
   },
-  "name": "jam-do.org",
+  "name": "jam-platform.dev",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "author": "team@jam-do.org",
+  "author": "team@jam-platform.dev",
   "license": "UNLICENSED",
   "devDependencies": {
     "@jam-do/jam-tools": "^0.0.4",

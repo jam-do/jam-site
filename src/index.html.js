@@ -46,9 +46,9 @@ let html = /*html*/ `<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jam-do.org</title>
-  <meta name="description" content="jam-do - the new age web development platform">
-  <meta name="keywords" content="jam-do, jam-x, jam-tools, jam-fi, jam-ai, dwa, ims, daobot, dao, chat-ui, meta web, web development, symbiote.js">
+  <title>jam-platform.dev</title>
+  <meta name="description" content="jam-platform - the new age web development platform">
+  <meta name="keywords" content="jam-platform, jam-x, jam-tools, jam-fi, jam-ai, dwa, ims, daobot, dao, chat-ui, meta web, web development, symbiote.js">
   <link rel="icon" href="./svg/ico/index.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

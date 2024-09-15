@@ -1,7 +1,7 @@
 export const data = {
-  'jam-do': {
-    // title: 'jam-do.org',
-    subTitle: 'jam-do.org',
+  'jam-platform': {
+    // title: 'jam-platform.dev',
+    subTitle: 'jam-platform.dev',
     img: './svg/logo/index.svg',
   },
   'jam-x': {

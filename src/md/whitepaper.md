@@ -399,7 +399,7 @@ In any case, we will study various work schemes and opportunities to conduct leg
 
 ## Investors and Partners
 
-**JAM-DO** is very much a research project in which various concepts will be created and tested. We don’t know for sure which of them will be the most commercially successful and socially useful; we have to test many hypotheses. It is necessary to be aware of the risks and features of the R&D processes associated with them. There is a possibility that a positive result will be achieved only in certain areas and our development strategy will be significantly adjusted.
+**JAM-platform** is very much a research project in which various concepts will be created and tested. We don’t know for sure which of them will be the most commercially successful and socially useful; we have to test many hypotheses. It is necessary to be aware of the risks and features of the R&D processes associated with them. There is a possibility that a positive result will be achieved only in certain areas and our development strategy will be significantly adjusted.
 
 > The entire code base of the platform (including infrastructure configurations, except for the Symbiote.js code) is the collective property of all investors and co-owners (in the form of ownership of shares of the total Code NFT array).
 

@@ -1,14 +1,15 @@
-# jam-do.org
+# jam-platform.dev
 
 ### Who we are?
 We are the team of engineering experts, who want to make web development easier and more accessible. 
 
-Jam-do.org - is a DAO-based organization. That means, we use blockchain technologies to setup our relationships, processes and decision-making flows.
+jam-platform - is a DAO-based structure. That means, we use blockchain technologies to setup our relationships, processes and decision-making flows.
 
 ### What exactly we doing?
 Our goal is to create the new kind of web development platform. We rethinking and reassembling environment tools to make them more clear and useful for the wider range of interested people, not for the experienced web developers only.
 
 We are not trying to reinvent the wheel. All our solutions are based on the modern abilities and standards, such as Web Components, HTTPS-imports, ECMAScript Modules, Git, CDNs and blockchain.
+
 ### What concepts we follow?
 
 - HTML-based low-code approach - it's easy to compose your solution from the set of the simple HTML-tags

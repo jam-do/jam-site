@@ -43,10 +43,10 @@ export default htmlMin( /*html*/ `
   <section why>${await md('./src/solutions/why.md')}</section>
 
   <section mail>
-    <span fade>Contact us:</span>&nbsp;<a href="mailto:team@jam-do.net">team@jam-do.net</a>
+    <span fade>Contact us:</span>&nbsp;<a href="mailto:team@jam-platform.dev">team@jam-platform.dev</a>
   </section>
 
-  <footer>&copy; ${year} jam-do.org</footer>
+  <footer>&copy; ${year} jam-platform.dev</footer>
 </body>
 </html>
 `);

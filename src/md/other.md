@@ -1,5 +1,5 @@
 # ...
-### Jam-do in social networks
+### jam-platform in social networks
 
 - [GitHub Discussions](https://github.com/orgs/jam-do/discussions)
 - [DEV.to](https://dev.to/jam-do)

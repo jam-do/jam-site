@@ -1,6 +1,6 @@
 # jam-ai^
 
-### AI tools for the jam-do platform integrations
+### AI tools for the jam-platform integrations
 
 Ask Artificial Intelligence to help you:
 - Create jam-assets

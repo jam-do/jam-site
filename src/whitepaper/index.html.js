@@ -17,7 +17,7 @@ export default /*html*/ `
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JAM-DO Platform Whitepaper</title>
+  <title>JAM-platform Whitepaper</title>
   <link rel="icon" href="../svg/ico/index.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +29,7 @@ export default /*html*/ `
 
   <header>
     <a href="../"><img src="../svg/logo/index.svg" height="100" /></a>
-    <h1>JAM-DO Platform White Paper</h1>
+    <h1>JAM-platform White Paper</h1>
   </header>
 
   <details>
@@ -41,7 +41,7 @@ export default /*html*/ `
     <div>${await md('./src/md/whitepaper.md')}</div>
   </x-article-nav>
 
-  <footer>&copy; ${year} jam-do.org</footer>
+  <footer>&copy; ${year} jam-platform.dev</footer>
 
   <dialog-el id="form">
     <toolbar-el> 

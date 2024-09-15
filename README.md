@@ -1,4 +1,4 @@
-# https://jam-do.org/
+# https://jam-platform.dev/
 
 ## Development
 
